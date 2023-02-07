@@ -79,11 +79,11 @@ const Footer = () => {
           <div className="col-3">
             <h4 className="text-white mb-4">Account</h4>
             <div className="footer-links d-flex flex-column">
-              <Link className="text-white py-2 mb-1">Search</Link>
-              <Link className="text-white py-2 mb-1">About Us</Link>
-              <Link className="text-white py-2 mb-1">FAQ</Link>
-              <Link className="text-white py-2 mb-1">Contact</Link>
-              <Link className="text-white py-2 mb-1">Size Chart</Link>
+              <Link to="/" className="text-white py-2 mb-1">Search</Link>
+              <Link to="/About"  className="text-white py-2 mb-1">About Us</Link>
+              <Link to="/"  className="text-white py-2 mb-1">FAQ</Link>
+              <Link to="/contact"  className="text-white py-2 mb-1">Contact</Link>
+              <Link to="/"  className="text-white py-2 mb-1">Size Chart</Link>
               
             </div>
             
@@ -91,10 +91,10 @@ const Footer = () => {
           <div className="col-2">
             <h4 className="text-white mb-4">Quick Links</h4>
             <div className="footer-links d-flex flex-column">
-              <Link className="text-white py-2 mb-1">Laptops</Link>
-              <Link className="text-white py-2 mb-1">Headphones</Link>
-              <Link className="text-white py-2 mb-1">Tablets</Link>
-              <Link className="text-white py-2 mb-1">Watches</Link>
+              <Link to ="/" className="text-white py-2 mb-1">Laptops</Link>
+              <Link  to ="/" className="text-white py-2 mb-1">Headphones</Link>
+              <Link  to ="/" className="text-white py-2 mb-1">Tablets</Link>
+              <Link  to ="/" className="text-white py-2 mb-1">Watches</Link>
               
             </div>
           </div>

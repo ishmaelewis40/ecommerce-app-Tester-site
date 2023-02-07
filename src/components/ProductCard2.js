@@ -22,7 +22,7 @@ const ProductCard2 = (props) => {
 
         <div  className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
-                <Link><img src={wish} alt="wishlist" /></Link>
+                <Link to="/wishlist"><img src={wish} alt="wishlist" /></Link>
             </div>
             <div className="product-image">
                 <img src={watch2} className="img-fluid"   alt="product images" />
@@ -54,13 +54,13 @@ const ProductCard2 = (props) => {
             </div>
             <div className="action-bar position-absolute">
                 <div className=" d-flex flex-column gap-15">
-                    <Link >
+                    <Link to="/compare-product">
                         <img src={prodcompare} alt="addcart" /> 
                         </Link>
-                        <Link >
+                        <Link to="/">
                         <img src={view} alt="addcart" /> 
                         </Link>
-                        <Link >
+                        <Link to= "/cart">
                         <img src={addcart} alt="addcart" /> 
                         </Link>
                        

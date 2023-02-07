@@ -26,7 +26,7 @@ const Signup = () => {
                 
                 <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
                   
-                  <Link className="button signup">Create</Link>
+                  <Link to="/" className="button signup">Create</Link>
                 </div>
               </div>
             </form>

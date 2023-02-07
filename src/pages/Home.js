@@ -25,7 +25,7 @@ const Home = () => {
                 <h4>Supercharged For Pros</h4>
                 <h5>iphone 13 Pro</h5>
                 <p>From £999 or £41.36/mon.</p><br></br>
-                <Link className="button">Buy Now</Link>
+                <Link to= "product/:id" className="button">Buy Now</Link>
               </div>
             </div>
           </div>
@@ -207,7 +207,7 @@ const Home = () => {
             The largest, most advanced Always-On Retina display yet makes everything you do with your Apple Watch Series 7 bigger and better. Stay centred.
              Move ahead. Taking a moment throughout the day to pause and breathe can reduce stress. The Apple Watch Series 7 delivers powerful health features on your wrist.
              </p>
-             <Link className=" buy button ">Buy Now</Link>
+             <Link to= "product/:id" className=" buy button ">Buy Now</Link>
         
           
         </div>

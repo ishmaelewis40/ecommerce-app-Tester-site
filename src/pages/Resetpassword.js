@@ -20,7 +20,7 @@ const Resetpassword = () => {
             
               <div>
                 <div className="mt-3 d-flex justify-content-center flex-column gap-15 align-items-center">
-                  <Link className="button submit" type="submit">Ok</Link>
+                  <Link to ="/"className="button submit" type="submit">Ok</Link>
                   
                 </div>
               </div>

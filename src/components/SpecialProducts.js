@@ -58,7 +58,7 @@ const SpecialProducts = () => {
                       </div>
                   </div>
                   </div>
-                  <Link className="button">Add to Cart</Link>
+                  <Link to="/cart" className="button">Add to Cart</Link>
                  </div>
                  
           </div>
